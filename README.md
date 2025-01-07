@@ -55,7 +55,7 @@ These OOP concepts contribute to a robust and flexible architecture, making the 
 2. Click "Try it out" and then "Execute".
 3. A CSV file with dummy data will be downloaded.
 
-<img src="image-1.png" alt="Dummy Data Generation" width="700">
+<img src="data/image-1.png" alt="Dummy Data Generation" width="700">
 
 ### 2. Upload a File
 - **Endpoint**: POST `/upload`
@@ -66,7 +66,7 @@ These OOP concepts contribute to a robust and flexible architecture, making the 
 4. Click "Execute".
 5. You'll receive a `file_id`. Save this for later use!
 
-<img src="image-2.png" alt="Upload File" width="700">
+<img src="data/image-2.png" alt="Upload File" width="700">
 
 ### 3. Get Data Summary
 - **Endpoint**: GET `/summary/{file_id}`
@@ -77,7 +77,7 @@ These OOP concepts contribute to a robust and flexible architecture, making the 
 4. Click "Execute".
 5. You'll see a summary of your data, including mean, median, and standard deviation for each column.
 
-<img src="image-3.png" alt="Get Data Summary" width="700">
+<img src="data/image-3.png" alt="Get Data Summary" width="700">
 
 ### 4. Transform Data
 - **Endpoint**: POST `/transform/{file_id}`
@@ -98,7 +98,7 @@ These OOP concepts contribute to a robust and flexible architecture, making the 
 5. Click "Execute".
 You'll receive a new `file_id` for the transformed data.
 
-<img src="image-4.png" alt="Transform Data" width="700">
+<img src="data/image-4.png" alt="Transform Data" width="700">
 
 ### 5. Visualize Data
 - **Endpoint**: GET `/visualize/{file_id}`
@@ -117,8 +117,5 @@ You'll receive a new `file_id` for the transformed data.
 5. Click "Execute".
 6. You'll see a PNG image of the chart.
 
-<img src="image-5.png" alt="Visualize Data" width="700">
+<img src="data/image-5.png" alt="Visualize Data" width="700">
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
